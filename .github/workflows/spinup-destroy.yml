@@ -1,5 +1,5 @@
 name : Configure Azure environment
-#test2
+#test23
 on:
   pull_request:
     types: [labeled]
