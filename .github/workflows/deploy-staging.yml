@@ -1,5 +1,4 @@
 name: Staging the application
-#test2
 
 env:
   DOCKER_IMAGE_NAME: odoibhlin-azure-ttt
