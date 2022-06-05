@@ -3,7 +3,7 @@ name: Main Production Deployment
 env:
   DOCKER_IMAGE_NAME: odoibhlin-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
-  AZURE_WEBAPP_NAME: odoibhlin-ttt-app
+  AZURE_WEBAPP_NAME: odoibhlin-ttt-deployment
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    #remove# if: contains(github.event.pull_request.labels.*.name, 'stage')  ##not needed.
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
