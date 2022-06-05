@@ -3,10 +3,6 @@ name : Spin up Azure Deployment environment
 on:
   workflow_dispatch:
   
-
-#remove#  pull_request:
-#remove#    types: [labeled]
-
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
