@@ -3,7 +3,7 @@ name: Staging the application
 env:
   DOCKER_IMAGE_NAME: odoibhlin-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
-  AZURE_WEBAPP_NAME: odoibhlin-ttt-production
+  AZURE_WEBAPP_NAME: odoibhlin-ttt-app
 
 on:
   pull_request:
