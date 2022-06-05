@@ -1,4 +1,4 @@
-name : Spin up Azure environment
+name : Spin up Azure Deployment environment
 
 on:
   workflow_dispatch:
