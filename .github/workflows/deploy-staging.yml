@@ -8,7 +8,9 @@ env:
 on:
   pull_request:
     types: [labeled]
-
+  push:
+    branches:
+      - '!main'  #run on all branches excluding main.
 jobs:
   build:
     if: contains(github.event.pull_request.labels.*.name, 'stage') 
