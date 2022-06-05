@@ -1,8 +1,11 @@
-name : Configure Azure environment
+name : Spin up Azure environment
 
 on:
-  pull_request:
-    types: [labeled]
+  workflow_dispatch:
+  
+
+#remove#  pull_request:
+#remove#    types: [labeled]
 
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
@@ -14,7 +17,7 @@ jobs:
     setup-up-azure-resources:
       runs-on: ubuntu-latest
 
-      if: contains(github.event.pull_request.labels.*.name, 'spin up environment') 
+   #remove# if: contains(github.event.pull_request.labels.*.name, 'spin up environment')  
 
       steps :
         - name: Checkout repository
