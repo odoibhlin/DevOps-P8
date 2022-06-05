@@ -1,5 +1,5 @@
 name: Staging the application
-
+##test
 env:
   DOCKER_IMAGE_NAME: odoibhlin-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
