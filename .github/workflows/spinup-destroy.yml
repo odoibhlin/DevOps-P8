@@ -1,6 +1,4 @@
 name : Configure Azure environment
-#test2
-
 
 on:
   pull_request:
