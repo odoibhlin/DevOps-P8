@@ -1,4 +1,4 @@
-name : Configure Azure environment
+name : Configure & Destroy Azure environment [tagged based]
 #test23
 on:
   pull_request:
