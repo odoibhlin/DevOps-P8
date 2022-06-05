@@ -1,20 +1,19 @@
 name : Destroy Azure Resources
 
 on:
-  pull_request:
-    types: [labeled]
+  workflow_dispatch:
+  
+ #remove# pull_request:
+ #remove#   types: [labeled]
 
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"North Europe"'
-  AZURE_WEBAPP_NAME: odoibhlin-ttt-app
 
 jobs:
     destroy-azure-resources:
       runs-on: ubuntu-latest
 
-      if: contains(github.event.pull_request.labels.*.name, 'destroy environment') 
+#removed manual run# if: contains(github.event.pull_request.labels.*.name, 'destroy environment') 
 
       steps :
         - name: Checkout repository
