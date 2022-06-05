@@ -5,7 +5,7 @@ on:
   
 env:
   AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-production
+  AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"North Europe"'
   AZURE_WEBAPP_NAME: odoibhlin-ttt-app
 
